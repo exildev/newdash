@@ -2029,7 +2029,7 @@ $(document).ready(function(){
         }
         else {
           // Insert as text;
-          toast.innerHTML = html; 
+          toast.innerHTML = html;
         }
         // Bind hammer
         var hammerHandler = new Hammer(toast, {prevent_default: false});
@@ -2746,6 +2746,9 @@ $(document).ready(function(){
     // Add active if input element has been pre-populated on document ready
     $(document).ready(function() {
       Materialize.updateTextFields();
+
+$(".dropdown-button").dropdown({hover: false});
+
     });
 
     // HTML DOM FORM RESET handling

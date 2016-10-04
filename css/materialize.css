@@ -8461,4 +8461,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .tiny { transition: all .2s ease-in-out; }
-.tiny:hover { transform: scale(0.5); }
+.tiny:hover { transform: scale(0.7); }
+
+.cuadrito{
+    width: 100%;
+    }
